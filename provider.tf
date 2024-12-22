@@ -7,7 +7,7 @@ terraform {
  }
 
  backend "s3" {
-   bucket = "wctestsurba "
+   bucket = "wctestsurba"
    key    = "state"
    region = "us-east-1"
  }
